@@ -31,7 +31,7 @@ import java.nio.file.Paths;
 public class FakeToLocalFileExample {
 
     public static void main(String[] args) throws FileNotFoundException, URISyntaxException, CommandException {
-        String configFile = getTestConfigFile("/examples/fakesource_to_file.conf");
+        String configFile = getTestConfigFile("/examples/flink.hive.orc.conf");
         FlinkCommandArgs flinkCommandArgs = new FlinkCommandArgs();
         flinkCommandArgs.setConfigFile(configFile);
         flinkCommandArgs.setCheckConfig(false);
