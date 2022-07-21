@@ -89,6 +89,7 @@
             <groupId>org.codehaus.janino</groupId>
             <artifactId>janino</artifactId>
             <version>${janino.version}</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
