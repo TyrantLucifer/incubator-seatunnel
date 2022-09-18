@@ -32,6 +32,7 @@ public class ReadStrategyFactory {
             return fileTypeEnum.getReadStrategy();
         } catch (IllegalArgumentException e) {
             log.warn("Hive plugin not support this file type [{}], it will be treated as a plain text file", fileType);
+            log.info("这是我测试rebase提交的信息");
             return new TextReadStrategy();
         }
     }
